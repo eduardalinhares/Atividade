@@ -22,7 +22,7 @@ class _Telas_moedasState extends State<Telas_moedas> {
   Financas financas = Financas.Inicar();
 
   BuscaDados() async {
-    final String urlVia = await 'https://api.hgbrasil.com/finance?format=json-cors&key=11d421da';
+    final String urlVia = await 'https://api.hgbrasil.com/finance?format=json-cors&key=2d502bc0';
     Response resposta_moeda = await get(Uri.parse(urlVia));
     Map info = json.decode(resposta_moeda.body);
 
